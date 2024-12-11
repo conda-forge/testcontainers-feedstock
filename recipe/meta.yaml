@@ -25,6 +25,7 @@ requirements:
     - urllib3
     - wrapt
     - typing-extensions
+    - python-dotenv
 
 test:
   imports:
