@@ -1,5 +1,5 @@
 {% set name = "testcontainers" %}
-{% set version = "4.13.3" %}
+{% set version = "4.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/testcontainers-{{ version }}.tar.gz
-  sha256: 9d82a7052c9a53c58b69e1dc31da8e7a715e8b3ec1c4df5027561b47e2efe646
+  sha256: 3b2d4fa487af23024f00fcaa2d1cf4a5c6ad0c22e638a49799813cb49b3176c7
 
 build:
   noarch: python
